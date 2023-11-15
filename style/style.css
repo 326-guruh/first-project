@@ -170,6 +170,47 @@ header .text3 p {
 
 
 /* Sarvar */
+/* featured start */
+.featured{
+  width: 80%;
+  height: 75px;
+  border: 1px solid transparent;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+h3{
+  color: #000;
+  font-family: Roboto;
+  font-size: 35px;
+}
+h5{
+  color: #4a4a4a;
+  /* padding-left: 20%; */
+  text-align: center;
+  font-family: Roboto;
+  line-height: normal;
+letter-spacing: 0.8px; 
+}
+.featured .featured_box{
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.featured .featured_box .iten{
+  width: 8px;
+  height: 8px;
+  border: 1px solid transparent;
+  background-color: #000;
+}
+
+
+
+
+
 
 
 
