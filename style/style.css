@@ -249,7 +249,7 @@ header .text3 p {
 }
 
 .designContainer .build ul li a {
-  color: #000;
+  /* color: #000; */
   color: #A0A0A0;
   text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -280,7 +280,7 @@ header .text3 p {
 }
 
 .designContainer .build ul li a:hover {
-  color: rgb(163, 153, 153);
+  color: black;
 }
 
 .designContainer .get ul li a:hover {
@@ -474,6 +474,47 @@ text-transform: uppercase;
 
 
 /* Sarvar */
+/* featured start */
+.featured{
+  width: 80%;
+  height: 75px;
+  border: 1px solid transparent;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+h3{
+  color: #000;
+  font-family: Roboto;
+  font-size: 35px;
+}
+h5{
+  color: #4a4a4a;
+  /* padding-left: 20%; */
+  text-align: center;
+  font-family: Roboto;
+  line-height: normal;
+letter-spacing: 0.8px; 
+}
+.featured .featured_box{
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.featured .featured_box .iten{
+  width: 8px;
+  height: 8px;
+  border: 1px solid transparent;
+  background-color: #000;
+}
+
+
+
+
+
 
 
 
