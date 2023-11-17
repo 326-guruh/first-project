@@ -20,9 +20,9 @@
   width: 1440px;
   height: 75px;
   flex-shrink: 0;
-  border-top: 4px solid #0C8CE9;
-  border-left: 4px solid #0C8CE9;
-  border-right: 4px solid #0C8CE9;
+  border-top: 4px solid #0c8ce9;
+  border-left: 4px solid #0c8ce9;
+  border-right: 4px solid #0c8ce9;
   display: flex;
 }
 
@@ -119,16 +119,17 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-top: 2px solid #0C8CE9;
-  border-left: 4px solid #0C8CE9;
-  border-right: 4px solid #0C8CE9;
+  border-top: 2px solid #0c8ce9;
+  border-left: 4px solid #0c8ce9;
+  border-right: 4px solid #0c8ce9;
 }
 
 header .text1 p {
   width: 440px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 43px;
   font-style: normal;
   font-weight: 400;
@@ -142,9 +143,10 @@ header .text1 p {
 
 header .text2 p {
   width: 211px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -153,9 +155,10 @@ header .text2 p {
 }
 header .text3 p {
   width: 95px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -166,12 +169,13 @@ header .text3 p {
 }
 /* HEADER END */
 
-
-
-
 /* Sarvar */
 /* featured start */
-.featured{
+.conten_2{
+  width: 80%;
+  height: 100vh;
+}
+.conteiner .featured {
   width: 80%;
   height: 75px;
   border: 1px solid transparent;
@@ -179,20 +183,23 @@ header .text3 p {
   justify-content: center;
   align-items: center;
 }
-h3{
+h3 {
   color: #000;
   font-family: Roboto;
   font-size: 35px;
+  color: #A0A0A0;
+
 }
-h5{
+h4 {
   color: #4a4a4a;
   /* padding-left: 20%; */
   text-align: center;
   font-family: Roboto;
   line-height: normal;
-letter-spacing: 0.8px; 
+  letter-spacing: 0.8px;
+
 }
-.featured .featured_box{
+.featured .featured_box {
   width: 100%;
   height: 20px;
   display: flex;
@@ -200,22 +207,52 @@ letter-spacing: 0.8px;
   align-items: center;
   gap: 5px;
 }
-.featured .featured_box .iten{
+.featured .featured_box .iten {
   width: 8px;
   height: 8px;
   border: 1px solid transparent;
   background-color: #000;
 }
+.featured_content {
+  width: 80%;
+  height: 700px;
+  border: 1px solid #000;
+}
+.featured_content .featured_box_2 {
+margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 80px; */
+  /* margin-left: ; */
+}
+.featured_content .featured_box_2 .iten_2 img {
+  width: 310px;
+  height: 434px;
+  flex-shrink: 0;
+  border: 1px solid white;
+ 
 
+}
+h5{
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 161.538% */
+  letter-spacing: 0.7px;
+  text-align: center;
+}
+.office{
 
+}
+.office  img{
+  width: 80%;
+height: 800px;
+flex-shrink: 0;
 
-
-
-
-
+}
 
 /* Zikrillo */
-
-
 
 /* Miranshoh */
